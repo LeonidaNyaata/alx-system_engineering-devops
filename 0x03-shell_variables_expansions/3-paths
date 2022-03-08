@@ -1,2 +1,2 @@
 #!/bin/bash
-echo [[:upper:]]*
+echo $PATH | tr ':''\n' | wc -l
